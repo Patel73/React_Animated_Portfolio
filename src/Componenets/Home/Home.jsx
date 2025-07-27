@@ -3,7 +3,7 @@ import { motion, useAnimation } from 'framer-motion';
 import { FaLinkedin, FaGithub, FaDownload } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { useLocation } from 'react-router-dom';
-import hom from '../../assets/hom8.png';
+import hom from '../../assets/hom5.png';
 import CV from  '../../assets/CV.pdf';
 
 const text = " I am NADIM";
