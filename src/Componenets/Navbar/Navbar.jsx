@@ -37,12 +37,12 @@ const Navbar = () => {
 
       {menuOpen && (
         <ul className="md:hidden absolute top-16 left-4 right-4 bg-black bg-opacity-90 rounded-xl px-6 py-4 flex flex-col gap-4 text-center font-semibold text-sm transition-all duration-300">
-          <a href="#Home"><li className="hover:text-cyan-400 transition">Home</li></a>
-          <a href="#About" onClick={() => setMenuOpen(false)}><li>About</li></a>
-          <a href="#Experience" onClick={() => setMenuOpen(false)}><li>Experience</li></a>
-          <a href="#Skills" onClick={() => setMenuOpen(false)}><li>Skills</li></a>
-          <a href="#Projects" onClick={() => setMenuOpen(false)}><li>Projects</li></a>
-          <a href="#Contact" onClick={() => setMenuOpen(false)}><li>Contact</li></a>
+          <a href="#Home" onClick={() => setMenuOpen(false)}><li className="hover:text-cyan-400 transition">Home</li></a>
+          <a href="#About" onClick={() => setMenuOpen(false)}><li className="hover:text-cyan-400 transition">About</li></a>
+          <a href="#Experience" onClick={() => setMenuOpen(false)}><li className="hover:text-cyan-400 transition">Experience</li></a>
+          <a href="#Skills" onClick={() => setMenuOpen(false)}><li className="hover:text-cyan-400 transition">Skills</li></a>
+          <a href="#Projects" onClick={() => setMenuOpen(false)}><li className="hover:text-cyan-400 transition">Projects</li></a>
+          <a href="#Contact" onClick={() => setMenuOpen(false)}><li className="hover:text-cyan-400 transition">Contact</li></a>
         </ul>
       )}
     </nav>
